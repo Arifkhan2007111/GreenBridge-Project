@@ -7,18 +7,22 @@
 }
 
 button{
-    width: 120px;
-    height: 50px;
+    width: 200px;
+    padding: 7px;
+    font-size: 2rem;
+    font-weight: 600;
     background-color: #228B22;
     color: #fff;
     font-size: larger;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 button:hover{
-    background-color: #29af29;
+    background-color: #51c451;
+    color: black;
     border-radius: 10px;
 }
 
@@ -69,4 +73,27 @@ nav ul li:hover{
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.506);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.home-cover h1{
+    font-size: 4rem;
+    color: #fff;
+    width: 60%;
+}
+
+.home-cover h2{
+    font-size: 3rem;
+    color: #fff;
+    width: 60%;
+}
+
+.home-button{
+    display: flex;
+    gap: 20px;
 }
