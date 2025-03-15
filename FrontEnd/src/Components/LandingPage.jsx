@@ -18,7 +18,12 @@ const Landing = () =>{
 
                 <section className="Home">
                     <div className="home-cover">
-
+                        <h1>"Our Planet Needs You"</h1>
+                        <h2>Explore how climate change is impacting our world and how you can help.</h2>
+                        <div className="home-button">
+                            <button>Explore Impacts</button>
+                            <button>Take Action Now</button>
+                        </div>
                     </div>
                 </section>
                 <section className="Awareness">
