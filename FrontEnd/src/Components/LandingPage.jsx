@@ -125,13 +125,35 @@ const Landing = () =>{
                     </div>
                 </section>
                 <section className="About">
-                    <div>
+                    <div className="about-intro">
                         <h1>"Our Mission: Building a Greener Tomorrow"</h1>
                         <p>Our planet is our responsibility, and every action counts. Through powerful storytelling and data-driven insights, we reveal the impact of climate change and human intervention. Together, we can make a difference — one informed choice at a time. Join us in protecting our environment and building a sustainable future for generations to come.</p>
                     </div>
+                    <div className="about-cards">
+                        <div className="about-card">
+                            <h1> 🔍 Research & Data Analysis</h1>
+                            <p>We gather and analyze environmental data to track climate change, pollution levels, and deforestation patterns. This data helps us predict future risks and identify urgent areas for action.</p>
+                        </div>
+                        <div className="about-card">
+                            <h1> 🤝 Community Collaboration</h1>
+                            <p>We partner with environmental experts, local communities, and global organizations to develop impactful solutions and implement sustainable practices.</p>
+                        </div>
+                        <div className="about-card">
+                            <h1> 📢 Education & Awareness</h1>
+                            <p>Through interactive content, visual stories, and engaging resources, we educate individuals about the impact of climate change and ways to contribute positively.</p>
+                        </div>
+                        <div className="about-card">
+                            <h1> 🌍 Action & Advocacy</h1>
+                            <p>We empower people to take meaningful actions such as participating in eco-friendly initiatives, planting trees, and supporting environmental campaigns.</p>
+                        </div>
+                        <div className="about-card">
+                            <h1> 📊 Monitoring & Improvement</h1>
+                            <p>We track environmental changes over time, ensuring our efforts are effective and impactful while continuously improving strategies.</p>
+                        </div>
+                    </div>
                 </section>
                 <section className="Connect">
-
+                    
                 </section>
             </div>
         </>
