@@ -1,14 +1,9 @@
 import React from "react";
-import Select from 'react-select';
 
 import Forest from "../assets/Forest.avif"
 import Deforest from "../assets/Deforest.avif"
 
-const options = [
-    { value: 'india', label: 'India' },
-    { value: 'usa', label: 'United States' },
-    { value: 'uk', label: 'United Kingdom' }
-];
+import Footer from "./Footer";
 
 const Landing = () =>{
     return(
@@ -177,6 +172,8 @@ const Landing = () =>{
                         <button>Submit</button>
                     </form>
                 </section>
+                <hr />
+                <Footer />
             </div>
         </>
     )
