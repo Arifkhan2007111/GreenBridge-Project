@@ -1,7 +1,14 @@
 import React from "react";
+import Select from 'react-select';
 
 import Forest from "../assets/Forest.avif"
 import Deforest from "../assets/Deforest.avif"
+
+const options = [
+    { value: 'india', label: 'India' },
+    { value: 'usa', label: 'United States' },
+    { value: 'uk', label: 'United Kingdom' }
+];
 
 const Landing = () =>{
     return(
@@ -153,7 +160,22 @@ const Landing = () =>{
                     </div>
                 </section>
                 <section className="Connect">
-                    
+                    <h1>CONNECT WITH US</h1>
+                    <p>Together we are part of a growing, global movement determined to bring about the changes our planet desperately needs.</p>
+                    <form>
+                        <input type="text" placeholder="First Name" required></input>
+                        <input type="text" placeholder="Last Name" required></input>
+                        <select required>
+                            <option value="">-- Select a Country --</option>
+                            <option value="india">India</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">Australia</option>
+                        </select>
+                        <input type="email" placeholder="Email" required></input>
+                        <button>Submit</button>
+                    </form>
                 </section>
             </div>
         </>
