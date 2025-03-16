@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import Forest from "../assets/Forest.avif"
 import Deforest from "../assets/Deforest.avif"
@@ -6,6 +6,17 @@ import Deforest from "../assets/Deforest.avif"
 import Footer from "./Footer";
 
 const Landing = () =>{
+
+    const home = useRef()
+    const aware = useRef()
+    const about = useRef()
+    const connect = useRef()
+
+    const scrollHandler = (elemRef) =>{
+        // console.log(elemRef)
+        window.scrollTo({top: elemRef.current.offsetTop, behavior: "smooth"})
+    }
+    
     return(
         <>
             <div className="Main">
@@ -14,14 +25,14 @@ const Landing = () =>{
                         <h1>LOGO</h1>
                     </div>
                     <ul>
-                        <li><a>Home</a></li>
-                        <li><a>Awareness</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Connect</a></li>
+                        <li><a onClick={() => scrollHandler(home)}>Home</a></li>
+                        <li><a onClick={() => scrollHandler(aware)}>Awareness</a></li>
+                        <li><a onClick={() => scrollHandler(about)}>About</a></li>
+                        <li><a onClick={() => scrollHandler(connect)}>Connect</a></li>
                     </ul>
                 </nav>
 
-                <section className="Home">
+                <section ref={home} className="Home">
                     <div className="home-cover">
                         <h1>"Our Planet Needs You"</h1>
                         <h2>Explore how climate change is impacting our world and how you can help.</h2>
@@ -31,7 +42,7 @@ const Landing = () =>{
                         </div>
                     </div>
                 </section>
-                <section className="Awareness">
+                <section ref={aware} className="Awareness">
                     <div className="Aware-card-cont">
                         <h1>"DO YOU KNOW?"</h1>
                         <div className="card">
@@ -126,7 +137,7 @@ const Landing = () =>{
                         </div>
                     </div>
                 </section>
-                <section className="About">
+                <section ref={about} className="About">
                     <div className="about-intro">
                         <h1>"Our Mission: Building a Greener Tomorrow"</h1>
                         <p>Our planet is our responsibility, and every action counts. Through powerful storytelling and data-driven insights, we reveal the impact of climate change and human intervention. Together, we can make a difference — one informed choice at a time. Join us in protecting our environment and building a sustainable future for generations to come.</p>
@@ -154,7 +165,7 @@ const Landing = () =>{
                         </div>
                     </div>
                 </section>
-                <section className="Connect">
+                <section ref={connect} className="Connect">
                     <h1>CONNECT WITH US</h1>
                     <p>Together we are part of a growing, global movement determined to bring about the changes our planet desperately needs.</p>
                     <form>
