@@ -6,6 +6,7 @@ import Glacier from "../assets/glacier.avif"
 import Melting from "../assets/melting-glacier.avif"
 import Land from "../assets/land.avif"
 import Drought from "../assets/Drought.avif"
+import logo from "../assets/5..png"
 
 import Footer from "./Footer";
 
@@ -26,7 +27,7 @@ const Landing = () =>{
             <div className="Main">
                 <nav>
                     <div className="logo">
-                        <h1>LOGO</h1>
+                        <img src={logo}></img>
                     </div>
                     <ul>
                         <li><a onClick={() => scrollHandler(home)}>Home</a></li>

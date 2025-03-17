@@ -36,11 +36,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-bottom: 10px;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.488);
     color: rgb(255, 255, 255);
-    padding: 10px;
     backdrop-filter: blur(5px);
 }
 
@@ -63,6 +61,11 @@ nav ul li{
 
 nav ul li:hover{
     border-bottom-color: #29af29; 
+}
+
+nav .logo img{
+    width: 180px;
+    padding-top: 5px;
 }
 
 .Home{
@@ -131,6 +134,11 @@ nav ul li:hover{
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    background-color: #0000007b;
 }
 
 .img{
@@ -228,6 +236,11 @@ nav ul li:hover{
     gap: 20px;
     text-align: center;
     margin: 20px;
+    transition: all 0.3s ease;
+}
+
+.about-card:hover{
+    background-color: #00000068;
 }
 
 .about-card h1{
@@ -280,6 +293,14 @@ input{
     padding: 5px;
     font-size: 1.3rem;
     color: #fff;
+    transition: all 0.3s ease;
+}
+
+input:hover{
+    background-color: #000000a1;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #fff;
 }
 
 input::placeholder{
@@ -297,6 +318,11 @@ select {
     padding: 8px 12px;
     font-size: 1.3rem;
     color: #fff;
+    transition: all 0.3s ease;
+}
+
+select:hover{
+    background-color: #000000a1;
 }
 
 .Connect form select{
