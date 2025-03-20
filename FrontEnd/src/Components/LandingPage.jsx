@@ -14,7 +14,9 @@ import Footer from "./Footer";
 const Landing = () =>{
 
     // Initialize Lenis
-    const lenis = new Lenis();
+    const lenis = new Lenis({
+        duration: 1.3
+    });
 
     // Use requestAnimationFrame to continuously update the scroll
     function raf(time) {
