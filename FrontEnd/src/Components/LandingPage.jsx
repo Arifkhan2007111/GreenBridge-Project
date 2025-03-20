@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Lenis from 'lenis'
 
 import Forest from "../assets/Forest.avif"
 import Deforest from "../assets/Deforest.avif"
@@ -11,6 +12,19 @@ import logo from "../assets/5..png"
 import Footer from "./Footer";
 
 const Landing = () =>{
+
+    // Initialize Lenis
+    const lenis = new Lenis({
+        duration: 1.2
+    });
+
+    // Use requestAnimationFrame to continuously update the scroll
+    function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
 
     const home = useRef()
     const aware = useRef()
