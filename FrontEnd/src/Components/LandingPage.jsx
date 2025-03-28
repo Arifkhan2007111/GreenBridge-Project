@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Lenis from 'lenis'
+import { useNavigate } from "react-router-dom";
 
 import Forest from "../assets/Forest.avif"
 import Deforest from "../assets/Deforest.avif"
@@ -13,23 +13,11 @@ import Footer from "./Footer";
 
 const Landing = () =>{
 
-    // Initialize Lenis
-    const lenis = new Lenis({
-        duration: 1.3
-    });
-
-    // Use requestAnimationFrame to continuously update the scroll
-    function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-
     const home = useRef()
     const aware = useRef()
     const about = useRef()
     const connect = useRef()
+    const navigate = useNavigate()
 
     const scrollHandler = (elemRef) =>{
         // console.log(elemRef)
@@ -48,6 +36,7 @@ const Landing = () =>{
                         <li><a onClick={() => scrollHandler(aware)}>Awareness</a></li>
                         <li><a onClick={() => scrollHandler(about)}>About</a></li>
                         <li><a onClick={() => scrollHandler(connect)}>Connect</a></li>
+                        <button onClick={()=> navigate("/login")} className="signin-btn">Sign-in</button>
                     </ul>
                 </nav>
 
@@ -56,8 +45,8 @@ const Landing = () =>{
                         <h1>"Our Planet Needs You"</h1>
                         <h2>Explore how climate change is impacting our world and how you can help.</h2>
                         <div className="home-button">
-                            <button>Explore Impacts</button>
-                            <button>Take Action Now</button>
+                            <button onClick={() => scrollHandler(aware)}>Explore Impacts</button>
+                            <button onClick={() => scrollHandler(connect)}>Take Action Now</button>
                         </div>
                     </div>
                 </section>
