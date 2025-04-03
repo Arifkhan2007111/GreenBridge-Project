@@ -36,6 +36,7 @@ const Landing = () =>{
                         <li><a onClick={() => scrollHandler(aware)}>Awareness</a></li>
                         <li><a onClick={() => scrollHandler(about)}>About</a></li>
                         <li><a onClick={() => scrollHandler(connect)}>Connect</a></li>
+                        <button onClick={()=> navigate("/blog")} className="signin-btn">Blog</button>
                         <button onClick={()=> navigate("/login")} className="signin-btn">Sign-in</button>
                     </ul>
                 </nav>
