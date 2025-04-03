@@ -9,6 +9,8 @@
 
 body{
     line-height: 1.5;
+    background-color: #1a1a1a;
+    color: #fff;
 }
 
 button{
@@ -33,7 +35,7 @@ button:hover{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     position: fixed;
@@ -46,7 +48,7 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    gap: 100px;
+    gap: 50px;
     font-size: 24px;
 }
 
@@ -68,6 +70,7 @@ nav .signin-btn{
     width: 150px;
     font-size: 1.4rem;
     padding: 5px;
+    margin: 0 20px;
     background-color: #228B22;
 }
 
@@ -239,7 +242,7 @@ nav .logo img{
     height: 300px;
     background-color: #000000;
     border-radius: 10px;
-    box-shadow: rgba(74, 74, 74, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(74, 74, 74, 0.35) 0px 5px 15px;
     padding: 10px;
     display: flex;
     justify-content: center;
