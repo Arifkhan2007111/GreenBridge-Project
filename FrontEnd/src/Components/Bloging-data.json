@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "title": "Renewable Energy Revolution",
+      "description": "Exploring the latest advancements in renewable energy sources and their impact on sustainability.",
+      "category": "Green Tech",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "title": "Climate Change and Its Effects",
+      "description": "Understanding global warming and its impact on ecosystems and human life.",
+      "category": "Climate Action",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "title": "Sustainable Living Tips",
+      "description": "Practical ways to reduce your carbon footprint and live a more sustainable lifestyle.",
+      "category": "Sustainability",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "title": "Eco-Friendly Innovations",
+      "description": "Discover the latest green technologies that are helping to protect the environment.",
+      "category": "Green Tech",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "title": "Reforestation Success Stories",
+      "description": "How tree-planting initiatives around the world are making a difference.",
+      "category": "Success Stories",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 6,
+      "title": "Plastic Pollution Solutions",
+      "description": "Exploring innovative ways to tackle plastic waste and ocean pollution.",
+      "category": "Climate Action",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 7,
+      "title": "The Power of Solar Energy",
+      "description": "How solar technology is transforming energy consumption worldwide.",
+      "category": "Green Tech",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 8,
+      "title": "Biodiversity Conservation Efforts",
+      "description": "Efforts being made to protect endangered species and restore natural habitats.",
+      "category": "Sustainability",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 9,
+      "title": "Sustainable Agriculture Practices",
+      "description": "How farmers are adopting eco-friendly techniques to preserve soil and water.",
+      "category": "Sustainability",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 10,
+      "title": "Innovations in Water Conservation",
+      "description": "New technologies and strategies to combat water scarcity.",
+      "category": "Green Tech",
+      "image": "https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
