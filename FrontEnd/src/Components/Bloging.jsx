@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import "./Bloging.css";
 import Data from "./Bloging-data.json";
 
+import plus from '../assets/plus.png'
+
 const Blog = () => {
   const [items, setItems] = useState(Data);
 
@@ -45,6 +47,10 @@ const Blog = () => {
             <button>{val.category}</button>
           </div>
         ))}
+      </div>
+      <div className="blog-add">
+        <span>Share Your Voice</span>
+        <img src={plus}></img>
       </div>
     </>
   );
