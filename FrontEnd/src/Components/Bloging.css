@@ -63,7 +63,8 @@
 }
 
 .blog-card {
-  width: auto;
+  width: 500px;
+  height: auto;
   background-color: #000000;
   border-radius: 10px;
   box-shadow: rgba(74, 74, 74, 0.35) 0px 5px 15px;
@@ -79,4 +80,41 @@
 .blog-card img {
   width: 100%;
   border-radius: 10px;
+}
+
+.blog-add{
+  width: auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 50%;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-add img{
+  width: 50px;
+}
+
+.blog-add span{
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  width: 120px;
+  padding: 7px;
+  border-radius: 7px;
+  background-color: #000000;
+  color: #51c451;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.blog-add:hover span{
+  opacity: 1;
+  visibility: visible;
 }
