@@ -22,7 +22,7 @@ const Login = () =>{
     }
     return(
         <>
-            <div>
+            <div className="login">
                 <form>
                     <input onChange={(e) =>{setEmail(e.target.value)}} value={email} placeholder="Enter Your Email" type="email"></input>
                     <input onChange={(e) =>{SetPassword(e.target.value)}} value={password} placeholder="Enter Your Password" type="password"></input>
